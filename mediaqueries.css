@@ -45,11 +45,25 @@
        
     }
     #home{
-        height:max-content;
+        height:fit-content;
     }
     .hero-content{
         width:80%;
-        height:50vh;
+        height:max-content;
+    }
+    .hero-img{
+        width:60%;
+        height:max-content;
+        margin:  0 20% 0 20%;
+        padding:0;
+    }
+    .hero-img img{
+        width: 100%;
+        height:max-content;
+    
+        border-radius: 300px;
+        vertical-align: middle;
+        
     }
     /* skills tab*/
     #about{
