@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    
+</head>
+<body><!-------------------->
+    <div class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">Skills & Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contactMe">Contact Me</a>
+    </div>
+    <!--for desktop-->
+     <div class="navbar-mobile">
+        <i class="fa-solid fa-bars" onclick="toggleMenu()"; id="hamburger-icon"> </i>
+        <i class="fa-solid fa-x" onclick="toggleMenu()" id="close-icon"></i>
+        <div class="media-links" id="menu-links">
+            <ul>
+                <li><button onclick="toggleMenu()"><a href="#home">Home</a></button></li>
+                <li><button onclick="toggleMenu()"><a href="#about">Skills & Education</a></button></li>
+                <li><button onclick="toggleMenu()"><a href="#projects">Projects</a></button></li>
+                <li><button onclick="toggleMenu()"><a href="#experience">Experience</a></button></li>
+                <li><button onclick="toggleMenu()"><a href="#contactMe">Contact Me</a></button></li>
+            </ul>
+        </div>
+     </div>
+<!--for mobile-->
+
+    <div class="container" name="Home" id="home">
+        <div class="hero">
+
+        <div class="hero-content">
+            <h1>Hello, I am Sridevi Parimi</h1> 
+            <p>A remarkable academic record with reliable customer service
+                experience for five years .Possesses solid knowledge of HTML, CSS,
+                JavaScript and React with ability to quickly learn new technologies</p>
+        </div>
+        <div class="hero-img">
+            <!--<img src="/pictures/mainpicture.jpg">--></div>
+        </div>
+        </div>
+    </div>
+
+
+
+    <div class="container" name="About Me" id="about">
+        <div class="tab-titles">
+            <p class="tab-links active-link" id="skill-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" id="education-link" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+            <div class="skill-list">
+                <div class="skill"> <i class="fa-brands fa-html5"></i><br><span>HTML5</span></div>
+                <div class="skill"> <i class="fa-brands fa-css3"></i><br>CSS3</div>
+                <div class="skill"> <i class="fa-brands fa-js"></i><br><span>JavaScript</span></div>
+                <div class="skill"> <i class="fa-brands fa-react"></i><br>React JS</div>
+                <div class="skill"> <i class="fa-brands fa-git-alt"></i><br>Git</div>
+             </div>
+        </div>
+        <div class="tab-contents" id="education">
+             <div class="Education">
+                <ul>
+                <li><button>Master of Professional Accounting and Master of Business Administration</button></li>
+                <h4>Holmes Institute,Sydney </h4>
+                <div class="year">2020-2021<span>GPA-5.4</span>   </div><br>
+                <li><button>Bachelor of Technology(Electronics and Communication Engineering)</button></li>
+                <h4>Jawaharlal Nehru Technological University, Hyderabad, India</h4>
+                <div class="year">2014-2018<span>Percentage-80%</span></div><br>
+                <li><button>Undergraduation</button></li>
+                <h4>Sree Narayana Junior College</h4> 
+                <div class="year">2012-2014 <span>Percentage-96%</span></div><br>
+                </ul>
+            </div>
+        </div> 
+    </div>
+
+
+    <div class="container" name="Projects" id="projects">
+        <h1>Projects</h1>
+        <div class="projects">
+            <div class="project1">
+                <div class="p1image" id="p1image">
+                </div>
+    
+                <div class="p1description"><p>This is a simple replica of the UI of the rebel website home page only HTML and CSS. </p>
+                    <a><button class="demo-link" onclick="rebelDemo()">Demo</button></a>
+                </div>
+            </div>
+            <div class="project1">
+                <div class="p1image" id="p2image">
+                </div>
+
+                <div class="p1description"><p>This is a simple calculator using HTML, CSS and JavaScript.</p>
+                    <a><button class="demo-link" onclick="calculatorDemo()">Demo</button></a>
+                </div>
+            </div>
+            <div class="project1">
+                <div class="p1image" id="p3image">
+                </div>
+                
+                <div class="p1description"><p>The news application is used to fetch news from news Api using HTML, CSS and JavaScript.</p>
+                    <a><button class="demo-link" onclick="newsAppDemo()">Demo</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container" name="Experience" id="experience">
+    <h1>Experience</h1>
+        <dl>
+            <div>
+                <dt><div class="title">Retail Team member - Rebel <span>Canberra(05/2022-current)</span></div></dt>
+                <dd>Demonstrated adaptability by working across various departments as
+                    needed, showcasing versatility in retail skills and knowledge.</dd>
+                <dd>Ensured high level of customer satisfaction with efficient problem
+                    solving when handling returns or exchanges.</dd>
+                <dd>Improved store''s overall operational efficiency by taking initiative in
+                    identifying areas for improvement and suggesting actionable solutions</dd>
+            </div>
+            <div>
+                <dt><div class="title">Team Member - Zambrero<span>Canberra(02/2022-05/2022)</span></div></dt>
+                
+                <dd>Food preparation and monitoring</dd>
+                <dd>Following food safety and work place safety procedures</dd>
+                <dd>Kept work areas clean, organized, and safe to promote efficiency and team safety</dd>
+            </div>
+            <div>
+                <dt><div class="title">Customer Service Representative - Sunrise Fresh Fruits and Vegetables<span>Sydney(11/2020-11/2021)</span></div></dt>
+                <dd>Experience in working with CRM</dd>
+                <dd>Hands-on Experience with POS machines</dd>
+                <dd>Stocked merchandise, clearly label items, and arranging according
+                    to size or color.</dd>
+                <dd>Maintain financial accounts and process orders.</dd>
+            </div>
+            <div>
+                <dt><div class="title">Crew Member - McDonalds<span>Sydney(09/2019-03/2020)</span></div></dt>
+                <dd>Worked front counter, drive-thru and other areas.</dd>
+                <dd>Took orders, prepared meals, and collected payments.</dd>
+            </div>
+        </dl>
+    </div>
+
+    <div class="container" name="Contact Me" id="contactMe">
+        <h1>Let's Work Together</h1>
+        <div class="contactme">
+            <div class="contactpart">
+               <pre>
+
+
+
+
+
+    <i class="fa-solid fa-envelope"></i>   parimisridevi586@gmail.com
+
+
+    <i class="fa-solid fa-phone"></i>   +61 466778956
+
+
+    <i class="fa-brands fa-github"></i>  <a href="https://github.com/srideviparimi">https://github.com/srideviparimi</a>
+
+
+
+
+               </pre> 
+            </div>
+            <div class="formpart">
+                <form action="https://api.web3forms.com/submit" method="POST" id="contactform">
+                    <input type="hidden" name="access_key" value="704c7c90-d8b1-41eb-a584-e7e2f3341ebb">
+                    <input type="text" id="fname" name="fname" placeholder="First Name" required><br><br>
+                    <input type="text" id="lname" name="lname" placeholder="Last Name" required><br><br>
+                    <input type="email" id="email" name="email" placeholder="Email" required><br><br> 
+                    <textarea id="message" name="message" rows="4" cols="58" placeholder="Message"></textarea><br><br>
+                    <input type="submit" id="submit" value="Submit">
+                  </form>
+            </div>
+        </div>
+        <div class="contact-icons-mobile">
+            <button><i class="fa-solid fa-envelope"></i></button> <span>&emsp;&emsp;parimisridevi586@gmail.com</span> <br><br>
+            <button><i class="fa-solid fa-phone"></i></button><span>&emsp;&emsp;+61 466778956</span><br><br>
+            <button><i class="fa-brands fa-github"></i></button><span>&emsp;&emsp;<a href="https://github.com/srideviparimi">https://github.com/srideviparimi</a></span>
+        </div>
+    </div>
+
+    
+</body>
+<script src="index.js"></script>
+</html>

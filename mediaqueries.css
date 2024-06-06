@@ -1,0 +1,172 @@
+@media screen and (max-width:800px){
+    /** navigation bar*/
+    .navbar{
+        display:none;
+    }
+    .navbar-mobile{
+        display:block;
+        position:fixed;
+        top:10px;
+        right:10px;
+    }
+    #hamburger-icon{
+        font-size: 20px;
+        display:block;
+    }
+    #close-icon{
+        display:none;
+    }
+    .media-links{
+        display:none;
+    }
+    .media-links ul{
+        list-style: none; 
+    }
+    .media-links a{
+        text-decoration: none;
+        color:white;
+        
+    }
+    .media-links button{
+        width:200px;
+        height:50px;
+        margin:5px;
+        border:none;
+        background-color: rgb(78, 120, 106);
+        border-radius: 10px;
+    }
+    .open{
+    display:block;
+    }
+    /**hero container*/
+    .hero{
+        display:block;
+        margin-top: 10vh;
+       
+    }
+    #home{
+        height:max-content;
+    }
+    .hero-content{
+        width:80%;
+        height:50vh;
+    }
+    /* skills tab*/
+    #about{
+        height:max-content;
+    }
+    .skill-list{
+        grid-template-columns: repeat(auto-fit,minmax(170px,1fr));
+        font-size: 1rem;
+    
+    }
+    .skill{
+        height:20vh;
+    }
+    .skill i{
+        font-size: 3rem;
+    }
+    /*education tab*/
+    .Education{
+        height:max-content;
+        width:80%;
+        margin:5%;
+    }
+    .Education.year{
+        height:max-content;
+        width:100%;
+    }
+    .Education ul{
+        height:max-content;
+        width:100%;
+    }
+    .Education h4{
+        height:max-content;
+        width:100%;
+    }
+    .Education button:hover{
+        height: max-content;
+        width:100%;
+    }
+    .Education button{
+        height: max-content;
+        width: 100%;
+    }
+    /*projects*/
+    #projects{
+        height:max-content;
+        width:100%;
+    }
+    .projects{
+        display:block;
+    }
+    .project1{
+        width:60%;
+        margin-top:4vh;
+        margin-bottom: 4vh;
+    }
+    /*Experience*/
+    #experience{
+        height:max-content;
+    }
+    #experience dt{
+    height:max-content;
+    }
+    /* contact me page*/
+    #contactMe{
+        height:max-content;
+    }
+    .contactme{
+        display:block;
+    }
+    .contactpart{
+        display:none;
+    }
+    .formpart{
+        width:100%;
+        padding:10%;
+    }
+    .formpart input{
+        width:80%;
+        height:max-content;
+    }
+    #message{
+        width:80%;
+        height:max-content;
+    }
+    #submit{
+        height:20px; 
+    }
+    /*new div for contact icons only for mobiles*/
+    .contact-icons-mobile{
+        display:block;
+        margin-left: 10%;
+        width: 80%;
+        height:max-content;
+        background-color:white;
+        color: rgb(78, 120, 106);
+        margin-top:20px;
+        /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+        padding:5%;
+    }
+    .contact-icons-mobile button{
+        border:none;
+        border-radius:100%;
+        background-color:rgb(78, 120, 106) ;
+        color:white;
+        padding:15px;
+        font-size: 1rem;
+    }
+    .contact-icons-mobile a{
+        text-decoration: none;
+        color: rgb(78, 120, 106);
+    }
+    .contact-icons-mobile a:hover{
+        text-decoration: underline;
+        color: rgb(183, 69, 183);
+    }
+    .contact-icons-mobile button:hover{
+        transform: translateY(-10px);
+        transition:0.5s,transform 0.5s;
+    }
+}
