@@ -78,6 +78,25 @@ color:black;
     text-align: center;
     vertical-align: middle;
 }
+.hero-content button{
+    border-radius: 15px;;
+    padding:10px;
+    text-align: center;
+    vertical-align: middle;
+    background-color:rgb(78, 120, 106) ;
+    border:none;
+    width:fit-content;
+}
+.hero-content a{
+    color:white;
+    text-decoration: none;;
+}
+.hero-content button:hover{
+    cursor: pointer;
+    background:rgb(61, 92, 61);
+    
+
+}
 .hero-img{
 width:45%;
 height:90vh;
